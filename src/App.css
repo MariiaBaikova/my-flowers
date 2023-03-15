@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f2dcfa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cont {
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.back {
+  background-color: #f4eddd; 
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.change {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+h2, h3, h4, p {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 25px;
+}
+
+button {
+  margin: 10px;
+}
+
+nav {
+  background: #313131;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.imgShop {
+  padding: 60px;
+  width: 700px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-basis: auto;
+  flex-flow: row wrap;
+  padding: 40px;
+  width: 90%;
+  font-size: 25px;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.description {
+  align-items: center;
+  width: 60%;
+}
+
+.sale {
+  padding: 50px;
+}
+
+h4 {
+  font-size: 25px;
+
+}
+
+.btnBack {
+  background-color: #300035;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.payment {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 200px;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.showMore {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 25px;
+  border: none;
+  background-color: #f6c8fb;
 }
